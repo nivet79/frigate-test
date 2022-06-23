@@ -1,0 +1,11 @@
+README.md
+docs/
+.gitignore
+debug
+config/
+*.pyc
+.git
+core
+*.mp4
+*.db
+*.ts

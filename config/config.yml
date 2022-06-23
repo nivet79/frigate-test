@@ -1,0 +1,15 @@
+mqtt:
+  host: 13.233.137.111
+cameras:
+  camera_1:
+    ffmpeg:
+      inputs:
+        - path: rtsp://userrtsp:tuskar2k21@182.75.131.49:554/5/2
+          roles:
+            - record
+    record:
+      enabled: True
+    rtmp:
+      enabled: False
+    detect:
+      enabled: False
